@@ -25,6 +25,8 @@ const corsOptions = {
   },
 };
 
+//cors
+
 app.use(cors(corsOptions));
 
 app.use("/api/veterinarios", veterinarioRoutes);
